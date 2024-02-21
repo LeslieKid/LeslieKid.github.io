@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-    <meta name="description" content="学习和往常一样，这无疑又是一个在学习方面彻底失败的寒假。沿袭了过往十几年的老传统，放假前我给自己定了亿个“小目标”：  Bustub : 继续完成CMU15-445 2023Fall的p3、p4，并Review和优化这个开源程度极高的项目。 xv6 : Review用了十天不到草草完成的xv6(MIT6.S081 Project)并写篇源码解析的博客，以便下学期在向老师申请操作系统课程免修时有点底">
+    <meta name="description" content="学习和往常一样，这无疑又是一个在学习方面彻底失败的寒假。沿袭了过往十几年的老传统，放假前我给自己定了亿个“小目标”：  Bustub : 继续完成CMU15-445 2023Fall的p3、p4，并Review和优化这个开源程度极高的项目。 xv6 : Review用了两周不到草草完成的xv6(MIT6.S081 Project)并写篇源码解析的博客，以便下学期在向老师申请操作系统课程免修时有点底">
 <meta property="og:type" content="article">
 <meta property="og:title" content="失败人士的寒假生活">
 <meta property="og:url" content="http://example.com/2024/02/20/%E5%A4%B1%E8%B4%A5%E4%BA%BA%E5%A3%AB%E7%9A%84%E5%AF%92%E5%81%87%E7%94%9F%E6%B4%BB/index.html">
 <meta property="og:site_name" content="Leslie Su">
-<meta property="og:description" content="学习和往常一样，这无疑又是一个在学习方面彻底失败的寒假。沿袭了过往十几年的老传统，放假前我给自己定了亿个“小目标”：  Bustub : 继续完成CMU15-445 2023Fall的p3、p4，并Review和优化这个开源程度极高的项目。 xv6 : Review用了十天不到草草完成的xv6(MIT6.S081 Project)并写篇源码解析的博客，以便下学期在向老师申请操作系统课程免修时有点底">
+<meta property="og:description" content="学习和往常一样，这无疑又是一个在学习方面彻底失败的寒假。沿袭了过往十几年的老传统，放假前我给自己定了亿个“小目标”：  Bustub : 继续完成CMU15-445 2023Fall的p3、p4，并Review和优化这个开源程度极高的项目。 xv6 : Review用了两周不到草草完成的xv6(MIT6.S081 Project)并写篇源码解析的博客，以便下学期在向老师申请操作系统课程免修时有点底">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-02-19T16:46:56.000Z">
-<meta property="article:modified_time" content="2024-02-21T09:46:24.366Z">
+<meta property="article:modified_time" content="2024-02-21T14:43:54.369Z">
 <meta property="article:author" content="Leslie Su">
 <meta name="twitter:card" content="summary">
     
@@ -155,34 +155,35 @@
     <h3 id="学习"><a href="#学习" class="headerlink" title="学习"></a><em><strong>学习</strong></em></h3><p>和往常一样，这无疑又是一个在学习方面彻底失败的寒假。沿袭了过往十几年的老传统，放假前我给自己定了亿个“小目标”：</p>
 <ul>
 <li><em><strong>Bustub</strong></em> : 继续完成CMU15-445 2023Fall的p3、p4，并Review和优化这个开源程度极高的项目。</li>
-<li><em><strong>xv6</strong></em> : Review用了十天不到草草完成的xv6(MIT6.S081 Project)并写篇源码解析的博客，以便下学期在向老师申请操作系统课程免修时有点底气。</li>
+<li><em><strong>xv6</strong></em> : Review用了两周不到草草完成的xv6(MIT6.S081 Project)并写篇源码解析的博客，以便下学期在向老师申请操作系统课程免修时有点底气。</li>
 <li>AI、开源书籍theByteBook ……</li>
 </ul>
 <p>结果当然也延续了既往的失败😅：</p>
 <ul>
 <li><em><strong>CMU15-445 2023Fall p3</strong></em>：该Project的任务主要是为bustub实现部分executor和optimizer。由于成功人士迟先生为bustub引入了完整的SQL层，我可以在shell中写一些SQL语句并执行，Binder、Planner、Optimizer层对语句的处理结果也可以较为清晰的看到，正反馈还是比较足的。这个项目的代码量不算大，但是需要阅读理解较多的源码（相较p1 p2）。幸运的是其提供了所有测试样例的源码，不需要像前几个项目一样对着GradeScope在服务器端跑着未知的测试代码。本人前三个项目合计在GradeScope上跑了有一百多次，通过log和复现test来找bug真挺痛苦的，当然这可能只是对于本失败人士而言，毕竟cmu15-445在知乎可是人手一份()。</li>
-<li><em><strong>《黑客与画家》</strong></em>：YC创始人Paul Graham的书，书中分享了其对一些问题的思考，作者的思考方式令人震撼，比如他从多个角度对“不能说的话”的思考，以及对“编程语言是用来帮助思考程序的，而不是用来表达你已经想好的程序”观点的论证。虽然这本书已出版近20年了，但却一点也不过时，反倒是看20年前的顶级黑客对未来的一些思考还挺有意思的。</li>
+<li><em><strong>《黑客与画家》</strong></em>：YC创始人Paul Graham的书，书中分享了其对一些问题的思考，作者的思考方式令人震撼，比如他从多个角度对“不能说的话”的思考，以及对“编程语言是用来帮助思考程序的，而不是用来表达你已经想好的程序”观点的论述。虽然这本书已出版近20年了，但却一点也不过时，反倒是看20年前的顶级黑客对未来的一些思考还挺有意思的。</li>
 <li><em><strong>密码学课程实验</strong></em>：本失败人士大二，为绩点前95%选手，在大一结束后已基本无缘保研行列，就降低个人期望想着混个毕业证就行。由于密码学期末速成比较成功，以及格为目标的我就没去做课程实验。后来段段老师统计成绩的时候就联系了我，了解到我不是很在意绩点，段段给我打了个电话和我聊天，建议我为自己多留一条选择的路（段段真的很为学生着想）。于是我用两个小时补写了一个简单的可用于数字签名的程序，段段给了我八十多的实验分，我知道这个小程序肯定是不值这么多分的，感谢段段❤️。</li>
 </ul>
 <hr>
 <h3 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a><em><strong>游戏</strong></em></h3><ul>
-<li><em><strong>Hollow Knight</strong></em>：一款类银河恶魔城独立游戏，寒假玩了40h，70%的完成度。剧情和梦境有关，很有新意，跳跳乐和boss战做得都挺不错的。ps：很喜欢灵魂沼地的设定，给我感觉是一个令人平静的灵魂栖息之所。</li>
+<li><em><strong>Hollow Knight</strong></em>：一款类银河恶魔城独立游戏，寒假玩了近40h，70%的完成度。剧情和梦境有关，很有新意，跳跳乐和boss战做得都挺不错的。ps：很喜欢灵魂沼地的设定，给我感觉是一个令人平静的灵魂栖息之所。</li>
 <li><em><strong>Inside</strong></em>：PlayDead出品的解谜类独立游戏，在深圳的时候玩的。解谜并不难，玩法也很简单，画面和主人公的喘息声让我带入感还挺强的。傀儡人的设定也不赖，最后一幕很治愈……有时间了想去体验一下Cocoon🥰</li>
-<li><em><strong>GrapplePack</strong></em>：2023 Github Game Jam上的作品，主题是Scale，玩起来有点像掘地求升，是我喜欢的类型。</li>
+<li><em><strong>GrapplePack</strong></em>：2023 Github Game Jam上的作品，主题是Scale，玩起来有点像掘地求升。</li>
 </ul>
 <hr>
 <h3 id="看剧-番"><a href="#看剧-番" class="headerlink" title="看剧&#x2F;番"></a><em><strong>看剧&#x2F;番</strong></em></h3><ul>
-<li><em><strong>繁花</strong></em>：冲着墨镜王去看的，心目中前三的国产剧。画面和音乐都很符合我的审美，Jungle Drums一响就梦回梁朝伟在《阿飞正传》中的名场面。作为一个金融小白，我感觉剧情不错，看一些对剧情的解析发现很多细节没注意到，有机会二刷。😇</li>
+<li><em><strong>繁花</strong></em>：冲着墨镜王去看的，心目中前三的国产剧。画面和音乐都很符合我的审美，Jungle Drums一响就梦回梁朝伟在《阿飞正传》中的名场面。作为一个金融小白，我感觉剧情不错，看一些对剧情的解析发现很多细节没注意到，有机会二刷。</li>
 <li><em><strong>万神殿2</strong></em>：实验室学长推荐的，科幻题材的美国番剧。剧情围绕着”Uploaded Intelligence”展开，编剧不仅脑洞大而且专业能力过硬。由于专业对口，还是能较好地理解剧情，很棒的番剧。</li>
 <li><em><strong>物理魔法使马修</strong></em>：有点无脑，但是爽啊！</li>
 </ul>
 <hr>
 <h3 id="旅行"><a href="#旅行" class="headerlink" title="旅行"></a><em><strong>旅行</strong></em></h3><p><em>深圳篇</em></p>
 <ul>
-<li><em><strong>深圳湾公园</strong></em></li>
-<li><em><strong>南油服装城 &amp; 华强北</strong></em></li>
-<li><em><strong>科兴科技园</strong></em></li>
-<li><em><strong>BAR ROOM</strong></em></li>
+<li><em><strong>深圳湾公园</strong></em>：心目中Top1的海岸线，这里有舒适的海风、绝美的海景，还有和cc沿海岸线来回骑行三十多公里的回忆。</li>
+<li><em><strong>南油服装城 &amp; 华强北</strong></em>：商业氛围相当浓厚的两个地方，在这里可以看到商铺、批发、设计、物流、招工、供应链管理公司等元素组成的生态圈。拉着车小跑在各商铺间小跑的收货员、来来往往的大小货车、各种售卖物料和周边产品的商铺……在这两座“城”中能够体会到“搞钱系统”设计的美妙。</li>
+<li><em><strong>科兴科技园</strong></em>：在几座Tencent写字楼楼下的一家名叫beautea的店坐了一个多小时，听隔壁桌的腾讯大佬聊产品、聊项目，体会腾讯成功人士的下午茶环境。（戴着员工牌的基本上在聊工作相关的事 &amp; 隔壁桌貌似是玩家口中的“王者荣耀设计师”</li>
+<li><em><strong>BAR ROOM</strong></em>：一家很棒的清吧，装修和音乐很有氛围感，调酒小哥和小姐姐都很健谈，调酒技术也很棒，店里有以电影名命名的特调酒，还有播放着经典电影的大屏幕。第二次去的时候还碰到了深圳某厂的大佬，跟他们聊了深圳的工作氛围和计算机行业情形等，还有幸加到了大佬微信🥰</li>
+<li>……</li>
 </ul>
 
   </div>
